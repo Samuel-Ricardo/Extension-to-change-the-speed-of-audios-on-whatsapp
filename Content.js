@@ -8,6 +8,13 @@ const interval = setInterval(()=>{
 
         console.log(header)
         clearInterval(interval)
+
+
+        const button = document.createElement("button")
+
+        button.innerHTML = "2x"
+        button.classList.add("TwoTimesButton")
+        header.appendChild(button)
     }
 },1000)
 
