@@ -1,1 +1,5 @@
-console.log("Minha extensao já estárodando")
+_1QUKR
+
+const header = document.querySelector("._1QUKR")
+
+console.log()
