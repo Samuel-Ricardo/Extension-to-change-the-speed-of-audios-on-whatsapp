@@ -6,14 +6,18 @@ const interval = setInterval(()=>{
 
     if(header){
 
-        console.log(header)
         clearInterval(interval)
 
+        const numberInput = document.createElement("INPUT")
+
+        numberInput.setAttribute("type","number")
+        numberInput.setAttribute("value","2")
+        numberInput.classList.add("number-input")
 
         const button = document.createElement("button")
 
-        button.innerHTML = "2x"
-        button.classList.add("two-times-button")
+        button.innerHTML = "Aplicar"
+        button.classList.add("apply-button")
 
         button.addEventListener("click",()=>{
 
@@ -28,6 +32,7 @@ const interval = setInterval(()=>{
         })
 
         header.appendChild(button)
+        header.appendChild(numberInput)
     }
 },1000)
 
