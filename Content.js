@@ -16,7 +16,7 @@ const interval = setInterval(()=>{
 
         const button = document.createElement("button")
 
-        button.innerHTML = "Aplicar"
+        button.innerHTML = "Acelerar em"
         button.classList.add("apply-button")
 
         button.addEventListener("click",()=>{

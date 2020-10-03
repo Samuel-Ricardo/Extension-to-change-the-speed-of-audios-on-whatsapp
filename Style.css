@@ -14,5 +14,6 @@
     font-weight: bold;
     background-color: transparent;
     border: none;
-    width: 10px;
+    width: 30px;
+    padding: 10px;
 }
