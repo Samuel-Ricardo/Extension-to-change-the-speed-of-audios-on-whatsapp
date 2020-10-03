@@ -14,6 +14,19 @@ const interval = setInterval(()=>{
 
         button.innerHTML = "2x"
         button.classList.add("two-times-button")
+
+        button.addEventListener("click",()=>{
+
+            const audios = document.querySelectorAll("audio")
+
+            audios.forEach((audio) => {
+
+                console.log(audios)
+                audio.playbackRate = 2;
+            })
+
+        })
+
         header.appendChild(button)
     }
 },1000)
