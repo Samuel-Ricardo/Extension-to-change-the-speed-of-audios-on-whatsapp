@@ -12,11 +12,12 @@ const interval = setInterval(()=>{
 
         numberInput.setAttribute("type","number")
         numberInput.setAttribute("value","2")
+        numberInput.setAttribute("min","0.1")
         numberInput.classList.add("number-input")
 
         const button = document.createElement("button")
 
-        button.innerHTML = "Acelerar em"
+        button.innerHTML = "Acelerar"
         button.classList.add("apply-button")
 
         button.addEventListener("click",()=>{
@@ -26,13 +27,14 @@ const interval = setInterval(()=>{
             audios.forEach((audio) => {
 
                 console.log(audios)
-                audio.playbackRate = 2;
+                audio.playbackRate = Number(numberInput.value);
             })
 
         })
 
-        header.appendChild(button)
+        
         header.appendChild(numberInput)
+        header.appendChild(button)
     }
 },1000)
 

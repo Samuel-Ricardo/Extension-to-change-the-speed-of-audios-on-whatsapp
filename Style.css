@@ -5,15 +5,16 @@
     font-weight: bold;
     background-color: transparent;
     border: none;
+    border-radius: 5px;
 }
 
 .number-input{
 
     color: gray;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
     background-color: transparent;
     border: none;
     width: 30px;
-    padding: 10px;
+    padding-left: 3px;
 }
