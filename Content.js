@@ -13,7 +13,7 @@ const interval = setInterval(()=>{
         const button = document.createElement("button")
 
         button.innerHTML = "2x"
-        button.classList.add("TwoTimesButton")
+        button.classList.add("two-times-button")
         header.appendChild(button)
     }
 },1000)
