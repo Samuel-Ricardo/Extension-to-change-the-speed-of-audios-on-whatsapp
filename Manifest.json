@@ -1,8 +1,9 @@
 {
 
     "manifest_version": 2,  
-    "name": "AudioSpeedChanger",
-    "version": "0.1",
+    "name": "Whatsapp Audio Speed Changer",
+    "description": "This extension solves the problems of giant audios on Whatsapp you can change the audio speed to save time",
+    "version": "1.0",
     "content_scripts": [
 
         {

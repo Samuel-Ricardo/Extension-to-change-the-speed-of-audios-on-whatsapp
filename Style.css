@@ -1,8 +1,20 @@
-.two-times-button{
+.apply-button{
 
     color: gray;
     font-size: 1rem;
     font-weight: bold;
     background-color: transparent;
     border: none;
+    border-radius: 5px;
+}
+
+.number-input{
+
+    color: gray;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    padding-left: 3px;
 }
